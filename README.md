@@ -25,6 +25,17 @@ Note that if the ANSI-CP437 file is animated, the animations are not lost and th
 ## Dependencies
 To compile and run *showansi* you need to have Qt libraries >= version 6 installed.
 
+## Compilation
+Please go in program directory and type this in your bash console:
+
+        qmake6
+        make
+
+To install *showansi* in the system, type:
+
+        sudo cp showansi /usr/bin
+
+
 ## Simple Test
 Please go in program directory and type this in your bash console:
 
