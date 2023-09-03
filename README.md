@@ -31,6 +31,8 @@ Please go in program directory and type this in your bash console:
         qmake6
         make
 
+Note: on some system, *qmake6* is simply *qmake*.
+
 To install *showansi* in the system, type:
 
         sudo cp showansi /usr/bin
