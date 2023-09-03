@@ -24,3 +24,5 @@ Note that if the ANSI-CP437 file is animated, the animations are not lost and th
 
 Enjoy!
 
+## Dependencies
+To compile and run *showansi* you need to have Qt libraries >= version 6 installed.
