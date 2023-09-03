@@ -10,6 +10,15 @@ To view them on my linux system I typed:
 
 but the result was something like this:
 
-![Tux, the Linux mascot](/assets/images/tux.png)
+![cat visualization in bash](/assets/cat.png)
 
-I then investigated the problem and realized that it was possible to make a simple converter to transform these files into a format that was interpretable by my console's bash. And so showansi was born.
+I then investigated the problem and realized that it was possible to make a simple converter to transform these files into a format that was interpretable by my console's bash. And so *showansi* was born.
+
+Whith *showansi* you can convert old ANSI-CP437 files to Unicode chars and shows it in your *bash* console.
+
+This is the same file converted by *showansi*:
+
+![showansi visualization in bash](/assets/showansi.png)
+
+Enjoy!
+
