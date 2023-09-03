@@ -22,7 +22,17 @@ This is the same file converted by *showansi*:
 
 Note that if the ANSI-CP437 file is animated, the animations are not lost and the *bash* console is able to display them correctly.
 
-Enjoy!
-
 ## Dependencies
 To compile and run *showansi* you need to have Qt libraries >= version 6 installed.
+
+## Simple Test
+Please go in program directory and type this in your bash console:
+
+        ./showansi test1.ans
+
+or
+
+        ./showansi test2.ans
+
+Enjoy!
+
