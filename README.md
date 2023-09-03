@@ -20,7 +20,7 @@ This is the same file converted by *showansi*:
 
 ![showansi visualization in bash](/assets/showansi.png)
 
-Note that if the ANSI-CP437 file is animated, the animations are not taken and the *bash* console is able to display them correctly.
+Note that if the ANSI-CP437 file is animated, the animations are not lost and the *bash* console is able to display them correctly.
 
 Enjoy!
 
