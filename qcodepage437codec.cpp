@@ -100,7 +100,6 @@ int QCodePage437Codec::mibEnum() const
 
 QString QCodePage437Codec::convertToUnicode(const char *in, int length, ConverterState *) const
 {
-    printf("ecco2\n");
     QString str;
     if ( length >= 6 && in[0] == '8' && in[1] == '0' &&
         in[length - 4] == 'F' && in[length - 3] == 'F' &&
