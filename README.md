@@ -12,7 +12,7 @@ but the result was something like this:
 
 ![cat visualization in bash](/assets/cat.png)
 
-I then investigated the problem and realized that it was possible to make a simple converter to transform these files into a format that was interpretable by my console's bash. And so *showansi* was born.
+I have investigated the problem and realized that it was possible to make a simple converter to transform these files into a format that was interpretable by my console's bash. And so *showansi* was born.
 
 Whith *showansi* you can convert old ANSI-CP437 files to Unicode chars and shows it in your *bash* console.
 
