@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication app(argc, argv);
     QCoreApplication::setApplicationName("ShowAnsi");
-    QCoreApplication::setApplicationVersion("1.0a");
+    QCoreApplication::setApplicationVersion("1.1a");
 
     QByteArray h;
     QFile f(":/txt/help");
@@ -36,10 +36,18 @@ int main(int argc, char *argv[])
     if (f.open(QFile::ReadOnly)) {
         h = f.readAll();
         f.close();
+        QByteArray q;
+        q.append('\x1a');
+        q.append("SAUCE00");
+        int pos = h.indexOf(q);
+        if (pos>=0){
+            h = h.left(pos);
+        }
 
         QCodePage437Codec *qc = new QCodePage437Codec();
         QString res = qc->toUnicode(h);
         cout << res.toLocal8Bit().data() << endl;
+        cout << '\x1b' << "[0m" << endl;
         exit(0);
     }
 
